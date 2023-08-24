@@ -7112,6 +7112,7 @@ textarea.form-control-lg {
 
 .align-items-center {
   align-items: center !important;
+  padding-top: 2rem;
 }
 
 .align-items-baseline {
@@ -7830,6 +7831,11 @@ textarea.form-control-lg {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.bg-primarymenu {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
 .bg-secondary {
@@ -11513,8 +11519,9 @@ html {
 }
 
 .masthead {
-    padding-top: calc(60rem + 104px);
+   -- padding-top: calc(60rem + 104px);
     padding-bottom: 3rem;
+    padding-top: 10rem;
 }
 .masthead .masthead-heading {
   font-size: 2.51rem;
@@ -11529,8 +11536,9 @@ html {
 
 @media (min-width: 992px) {
   .masthead {
-    padding-top: calc(38rem + 104px);
+   -- padding-top: calc(38rem + 104px);
     padding-bottom: 3rem;
+    padding-top: 56rem;
 }
   .masthead .masthead-heading {
     font-size: 4rem;
