@@ -7830,8 +7830,20 @@ textarea.form-control-lg {
    background-image: url("assets/img/circus.jpg");
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 100%;
+    height: 15rem;
 }
+
+@media (min-width: 992px){
+.bg-primary {
+  --bs-bg-opacity: 1;
+  --background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+   background-image: url("assets/img/circus.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 65rem;
+}}
 
 .bg-primarymenu {
   --bs-bg-opacity: 1;
@@ -11521,7 +11533,7 @@ html {
 .masthead {
    -- padding-top: calc(60rem + 104px);
     padding-bottom: 3rem;
-    padding-top: 10rem;
+    --padding-top: 10rem;
 }
 .masthead .masthead-heading {
   font-size: 2.51rem;
@@ -11538,7 +11550,7 @@ html {
   .masthead {
    -- padding-top: calc(38rem + 104px);
     padding-bottom: 3rem;
-    padding-top: 56rem;
+   -- padding-top: 56rem;
 }
   .masthead .masthead-heading {
     font-size: 4rem;
