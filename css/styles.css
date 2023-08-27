@@ -11326,10 +11326,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@media (min-width: 992px){
 html {
   height: 100%;
   scroll-padding-top: calc(4.5rem - 1px);
-}
+}}
+
+@media (max-width: 440px){
+html {
+  height: 100%;
+  scroll-padding-top: calc(25rem - 1px);
+}}
 
 .page-section {
   padding: 4rem 0;
