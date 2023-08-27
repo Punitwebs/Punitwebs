@@ -6523,7 +6523,7 @@ textarea.form-control-lg {
 }
 
 .fixed-top {
-  position: sticky;
+  position: fixed;
   top: 0;
   right: 0;
   left: 0;
@@ -7832,6 +7832,7 @@ textarea.form-control-lg {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 15rem;
+	margin-top: 75px;
 }
 
 @media (min-width: 992px){
