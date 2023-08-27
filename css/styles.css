@@ -11336,7 +11336,7 @@ html {
 @media (max-width: 440px){
 html {
   height: 100%;
-  scroll-padding-top: calc(25rem - 1px);
+  scroll-padding-top: calc(4rem - 1px);
 }}
 
 .page-section {
